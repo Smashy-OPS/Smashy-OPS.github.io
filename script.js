@@ -1,4 +1,4 @@
-  // Anno dinamico
+// Anno dinamico
   document.getElementById('year').textContent = '© ' + new Date().getFullYear();
 
   // Nav scroll state
