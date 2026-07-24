@@ -370,7 +370,13 @@
   .contact .section-title{margin:0 auto 20px;}
   .contact .section-lead{margin:0 auto 56px;}
 
-  .contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:880px;margin:0 auto 60px;}
+  /* 
+     MODIFICA QUI: 
+     repeat(2,1fr) invece di repeat(3,1fr) 
+     max-width: 750px invece di 880px per mantenere le proporzioni 
+  */
+  .contact-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;max-width:750px;margin:0 auto 60px;}
+  
   .contact-card{
     background:var(--surface);border:1px solid var(--border);border-radius:14px;
     padding:30px 22px;text-decoration:none;color:var(--text);
