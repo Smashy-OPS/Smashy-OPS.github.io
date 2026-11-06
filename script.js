@@ -57,7 +57,7 @@
   const lines = [
     { cmd: 'whoami', out: 'Salvatore Isca — Perito Informatico' },
     { cmd: 'cat competenze.txt', out: 'Sviluppo Web · Database · Reti &amp; Sicurezza' },
-    { cmd: 'cat contatti.txt', out: 'Palermo · salvatoreisca53@gmail.com' }
+    { cmd: 'cat contatti.txt', out: 'Palermo · salvatore.isca.dev@gmail.com' }
   ];
 
   function renderStatic() {
